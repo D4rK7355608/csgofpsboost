@@ -1,0 +1,1 @@
++exec autoexec.cfg -forcenovsync -high -language d4rk -limitvsconst -noaafonts -nojoy -nosplash -novid -noubershader -r_emulate_g -softparticlesdefaultoff +mat_disable_fancy_blending 1 -forcenovsync
