@@ -1,6 +1,5 @@
 "RadioPanel.txt"
 {
-
 //"SFUI_StandardRadio"
 //"SFUI_GroupRadio"	
 //"SFUI_ReportRadio"	
@@ -11,7 +10,6 @@
 			"hotkey"	"0"
 			"title"	"Offline Menu"
 			"timeout"	"5"
-
 			"Commands"
 			{
 				"Toggle Noclip"
@@ -20,56 +18,48 @@
 					"label"	"Noclip"
 					"cmd"	"sv_cheats 1; noclip"
 				}
-				
 				"Toggle Godmode"
 				{
 					"hotkey"	"2"
 					"label"	"GodMode"
 					"cmd"	"sv_cheats 1; god"
 				}
-				
 				"Clear Decals"
 				{
 					"hotkey"	"3"
 					"label"	"Clear Decals"
 					"cmd"	"r_cleardecals"
 				}
-				
 				"Draw Brushes(ON)"
 				{
 					"hotkey"	"4"
 					"label"	"Draw Brushes(ON)"
 					"cmd"	"sv_cheats 1; r_drawclipbrushes 2"
 				}	
-				
 				"Draw Brushes(OFF)"
 				{
 					"hotkey"	"5"
 					"label"	"Draw Brushes(OFF)"
 					"cmd"	"r_drawclipbrushes 0"
 				}
-				
 				"Impact&Trajectory(ON)"
 				{
 					"hotkey"	"6"
 					"label"	"Impact&Trajectory(ON)"
 					"cmd"	"sv_cheats 1; say_team Impact&Trajectory(ON); sv_grenade_trajectory 1; sv_grenade_trajectory_dash 1; sv_grenade_trajectory_thickness 1; sv_grenade_trajectory_time 10; sv_showimpacts 1; sv_showimpacts_time 5; sv_showimpacts_penetration 1"
 				}
-				
 				"Impact&Trajectory(OFF)"
 				{
 					"hotkey"	"7"
 					"label"	"Impact&Trajectory(OFF)"
 					"cmd"	"say_team Impact&Trajectory(OFF); sv_grenade_trajectory 0; sv_showimpacts 0; sv_showimpacts_time 4; sv_showimpacts_penetration 0"
 				}
-				
 				"Restart Game"
 				{
 					"hotkey"	"8"
 					"label"	"Restart Game"
 					"cmd"	"mp_restartgame 1; mp_warmup_end"
 				}
-				
 				"Enable Training"
 				{
 					"hotkey"	"9"
@@ -79,13 +69,11 @@
 
 			}
 		}
-
 		"standard"
 		{
 			"hotkey"	"1"
 			"title"	"Bot Menu"
 			"timeout"	"5"
-			
 			"Commands"
 			{
 				"Add Bot(Counter-Terrorist)"
@@ -94,56 +82,48 @@
 					"label"	"Add Bot(Counter-Terrorist)"
 					"cmd"	"bot_add_ct"
 				}
-				
 				"Add Bot(Terrorist)"
 				{
 					"hotkey"	"2"
 					"label"	"Add Bot(Terrorist)"
 					"cmd"	"bot_add_t"
 				}
-				
 				"Bot Place"
 				{
 					"hotkey"	"3"
 					"label"	"Bot Place"
 					"cmd"	"bot_stop 1; bot_place"
 				}
-				
 				"Bot Crouch(ON)"
 				{
 					"hotkey"	"4"
 					"label"	"Bot Crouch(ON)"
 					"cmd"	"bot_crouch 1"
 				}
-				
 				"Bot Crouch(OFF)"
 				{
 					"hotkey"	"5"
 					"label"	"Bot Crouch(OFF)"
 					"cmd"	"bot_crouch 0"
 				}
-				
 				"Bot Mimic(ON)"
 				{
 					"hotkey"	"6"
 					"label"	"Bot Mimic(ON)"
 					"cmd"	"bot_mimic_yaw_offset 0; bot_mimic 1"
 				}
-				
 				"Bot Mimic(OFF)"
 				{
 					"hotkey"	"7"
 					"label"	"Bot Mimic(OFF)"
 					"cmd"	"bot_mimic_yaw_offset 0; bot_mimic 0"
 				}
-				
 				"Stop all bots"
 				{
 					"hotkey"	"8"
 					"label"	"Stop all bots"
 					"cmd"	"bot_stop 1"
 				}
-				
 				"Kick all bots"
 				{
 					"hotkey"	"9"
@@ -152,13 +132,11 @@
 				}
 			}
 		}
-		
 		"group"
 		{
 			"hotkey"	"2"
 			"title"	"Radio"
 			"timeout"	"5"
-			
 			"Commands"
 			{
 				"Roger that!"
@@ -167,56 +145,48 @@
 					"label"	"Roger that!"
 					"cmd"	"roger"
 				}
-				
 				"Negative!"
 				{
 					"hotkey"	"2"
 					"label"	"Negative!"
 					"cmd"	"negative"
 				}
-				
 				"Need backup!"
 				{
 					"hotkey"	"3"
 					"label"	"Need backup!"
 					"cmd"	"needbackup"
 				}
-				
 				"Hold this position!"
 				{
 					"hotkey"	"4"
 					"label"	"Hold this position!"
 					"cmd"	"holdpos"
 				}
-				
 				"Go go go!"
 				{
 					"hotkey"	"5"
 					"label"	"Go go go!"
 					"cmd"	"go"
 				}
-				
 				"Thanks!"
 				{
 					"hotkey"	"6"
 					"label"	"Thanks!"
 					"cmd"	"thanks"
 				}
-
 				"Cheer!"
 				{
 					"hotkey"	"7"
 					"label"	"Cheer!"
 					"cmd"	"cheer"
 				}	
-				
 				"-Sorry!"
 				{
 					"hotkey"	"8"
 					"label"	"-Sorry!"
 					"cmd"	"say_team -Sorry!"
-				}	
-
+				}
 				"-Drop!"
 				{
 					"hotkey"	"9"
