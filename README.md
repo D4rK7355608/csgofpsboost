@@ -90,5 +90,4 @@ Version 1.1:
 Version 1.0:
 - Initial release.
 
-![license](https://imgur.com/QQlcEVT.png) 
-"# csgofpsboost" 
+![license](https://imgur.com/QQlcEVT.png)
