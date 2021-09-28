@@ -36,6 +36,10 @@ __WHY YOU READ THIS? GO AND PLAY!__
 
 Changelog:
 
+Version 2.1:
+- Fixed some config style;
+- Removed "skill" & "cl_forcepreload";
+
 Version 2.0:
 - New repository;
 - Simplified everything;
