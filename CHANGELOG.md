@@ -1,4 +1,8 @@
 # Version 3.0_r1:
+- Updated some commands.
+- Made various under-the-hood improvements for a better overall experience.
+
+# Version 3.0_r1:
 - Added more launch options.
 - Made various under-the-hood improvements for a better overall experience.
 
