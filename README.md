@@ -37,7 +37,7 @@ Bugs can be reported [here](https://github.com/D4rK7355608/csgofpsboost/issues).
 
 ## Instalation process:
 
-- Download latest (release)[https://github.com/D4rK7355608/csgofpsboost/releases/latest].
+- Download latest [release](https://github.com/D4rK7355608/csgofpsboost/releases/latest).
 - Extract ZIP file.
 - Open your CS:GO instalation folder (maybe is `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\`).
 - Drag "csgo" folder in `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\`.
